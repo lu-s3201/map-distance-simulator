@@ -1,0 +1,11 @@
+list
+dist China-Shenzhen-my Singapore-Singapore-ls
+dist TX-Coppell-ax Japan-TokyoSuginami-ai
+dist China-Shanghai-rx NY-NewYork-am
+dist PA-WestChester-kl CA-SanFrancisco-lcim
+dist RI-Pawtucket-kgk Singapore-Singapore-ee
+path Indonesia-Jakarta-cm KS-KansasCity-am 8
+path TX-Coppell-ax Japan-TokyoSuginami-ai 3
+path x x 3
+path CT-Ellington-tm PA-Allentown-kk 7
+quit

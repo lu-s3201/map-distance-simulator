@@ -1,0 +1,9 @@
+list
+dist NY-Ithaca-ES MA-Boston-JN
+dist MA-Medford-VN MD-Columbia-DM
+dist NY-New-Rochelle-SBP CO-Denver-JD
+dist CT-Guilford-MC TX-Houston-CRC
+path MA-Medford-PM CT-Guilford-MC 3
+path CA-San-Francisco-AJ RI-Pawtucket-RG 5
+path WA-Seattle-JL NY-New-Rochelle-SBP 7
+quit
