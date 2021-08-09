@@ -1,18 +1,18 @@
 # map-distance-simulator
 
-* * * * * * * * * * * * * * * * PURPOSE * * * * * * * * * * * * * * * *
+PURPOSE
 
 This assignment includes a Road Trip program. The program is able to
 read into a .vdat (vertex data) & .adat (adjacency data) file, store given
 information in a directed graph, and run the following queries: "list", "dist",
 "quit" and "path".
 
-* * * * * * * * * * * * * * ACKNOWLEDGEMENTS * * * * * * * * * * * * * *
+ACKNOWLEDGEMENTS
 
 In this assignment, I referred to cplusplus.com's documentation of the vector
 library.
 
-* * * * * * * * * * * * * * * * * FILES * * * * * * * * * * * * * * * * *
+FILES
 
 Graph.h:
      Interface of the Graph class. Defines the class's members and functions.
@@ -51,7 +51,7 @@ README:
 Makefile:
      Defines Terminal shortcuts for compiling the program.
 
-* * * * * * * * * * * * * * * COMPILE & RUN * * * * * * * * * * * * * * *
+COMPILE & RUN
 
 To compile the Graph: "make testGraph.o"
 To run: "./testGraph.o"
@@ -62,7 +62,7 @@ To run: "./testRoadTrip.o vertex_data edge_data input_data"
 To compile the Road Trip program: "make findpath"
 To run: "./findpath vertex_data edge_data"
 
-* * * * * * * * * * * DATA STRUCTURES & ALGORITHMS * * * * * * * * * * *
+DATA STRUCTURES & ALGORITHMS
 
 To implement the directed graph structure, I used a struct as vertices and a
 \linked-list-like implementation of edges. The Vertex struct contains the
@@ -92,7 +92,7 @@ pointers, which is printed once a complete path is found, then cleared to store
 the next path. Since the objective is to find many paths and not specifically
 the shortest path, a BFS isn't the necessary algorithm to use.
 
-* * * * * * * * * * * * * * * * TESTING * * * * * * * * * * * * * * * *
+TESTING
 
 I conducted unit testing on the Graph class, in a class named testGraph.cpp.
 This class tests all the functions implemented in Graph.cpp. I applied
