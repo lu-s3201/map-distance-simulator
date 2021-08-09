@@ -7,10 +7,12 @@ read into a .vdat (vertex data) & .adat (adjacency data) file, store given
 information in a directed graph, and run the following queries: "list", "dist",
 "quit" and "path".
 
+
 ACKNOWLEDGEMENTS
 
 In this assignment, I referred to cplusplus.com's documentation of the vector
 library.
+
 
 FILES
 
@@ -51,6 +53,7 @@ README:
 Makefile:
      Defines Terminal shortcuts for compiling the program.
 
+
 COMPILE & RUN
 
 To compile the Graph: "make testGraph.o"
@@ -61,6 +64,7 @@ To run: "./testRoadTrip.o vertex_data edge_data input_data"
 
 To compile the Road Trip program: "make findpath"
 To run: "./findpath vertex_data edge_data"
+
 
 DATA STRUCTURES & ALGORITHMS
 
@@ -91,6 +95,7 @@ paths from one location to another. The path is stored in a vector of Vertex
 pointers, which is printed once a complete path is found, then cleared to store
 the next path. Since the objective is to find many paths and not specifically
 the shortest path, a BFS isn't the necessary algorithm to use.
+
 
 TESTING
 
